@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./asset/style.css">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <div id="logo">
+    <img src="./images/logo.svg" alt="Ping logo">
+  </div>
+
+  <div id="text">We are launching <span id="text1">soon!</span></div>
+
+  <span id="text2">Subscribe and get notified</span>
+
+  <form action="#" id="form">
+    <input type="email" placeholder="your email address....." name="email" id="email" >
+    <button type="submit"  onclick="mtform()" value="Notify Me" id="btn">v</button>
+    <p id="demo"></p>
+  </form>
+
+  <div id="main">
+    <img src="./images/illustration-dashboard.png" alt="dashboard">
+  </div>
+
+  <div id="socialIcons">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+  </div>
+
+
+  &copy; Copyright Ping. All rights reserved.
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Justolusegun</a>.
+    </p>
+  </footer>
+
+  <script>
+    function mtform() {
+      let input = document.getElementById('email').value;
+      var text;
+      if(input.includes('@') && input.includes('.')){
+        text = " "
+      }else{
+        text = 'please provide a valid email address'
+      }
+      document.getElementById('demo').innerHTML = text;
+    }
+  </script>
+</body>
+</html>
