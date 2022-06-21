@@ -31,7 +31,7 @@ The designs were created to the following widths:
 
 ### Fonts
 
-- Family: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin)
+- Family: 
 - Weights: 300, 600, 700
 
 ## Icons

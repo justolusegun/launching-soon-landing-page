@@ -9,6 +9,7 @@ body{
     margin: 0;
     background-color: #fff;
     overflow-x: hidden;
+    /* font-family: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin); */
 }
 .attribution {
      font-size: 11px;
@@ -24,7 +25,7 @@ body{
 #text{
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(124, 124, 124);
+    color: hsl(0, 0%, 59%);
     padding-bottom: 15px;
 }
 
@@ -34,7 +35,7 @@ body{
 }
 
 #text2{
-    color: rgb(124, 124, 124);
+    color: hsl(0, 0%, 59%);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -46,7 +47,7 @@ body{
     width: 25%;
     height: 35px;
     border-radius: 25px;
-    border: 1px solid rgb(124, 124, 124);
+    border: 1px solid hsl(0, 0%, 59%);
 }
 
 #email::placeholder{
@@ -58,8 +59,8 @@ body{
     width: 10%;
     height: 35px;
     border-radius: 25px;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(39, 78, 195);
+    border: 1px solid hsl(0, 0%, 59%);
+    background-color: hsl(223, 87%, 63%);
     color: #fff;
 }
 
@@ -91,13 +92,13 @@ body{
     #text{
         font-size: 20px;
         font-family: 'Open Sans', sans-serif;
-        color: rgb(124, 124, 124);
+        color: hsl(0, 0%, 59%);
         padding-bottom: 15px;
     }
 
     #text2{
         font-size: 15px;
-        color: rgb(124, 124, 124);
+        color: hsl(0, 0%, 59%);
         font-family: 'Open Sans', sans-serif;
     }
 
@@ -106,7 +107,7 @@ body{
         height: 35px !important;
         margin-bottom: 20px;
         border-radius: 25px;
-        border: 1px solid rgb(124, 124, 124);
+        border: 1px solid hsl(0, 0%, 59%);
     }
     
     #btn{
@@ -114,8 +115,8 @@ body{
         width: 100% !important;
         height: 35px !important;
         border-radius: 25px;
-        border: 1px solid rgb(255, 255, 255);
-        background-color: rgb(39, 78, 195);
+        border: 1px solid hsl(0, 0%, 59%);
+        background-color: hsl(223, 87%, 63%);
         color: #fff;
     }
 }
